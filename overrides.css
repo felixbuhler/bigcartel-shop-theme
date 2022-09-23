@@ -46,9 +46,14 @@ a.store-link {
         cursor: pointer !important;
     }
 
+    .nav-menu-item a,
+    .horizontal-nav-link a {
+        cursor: pointer !important;
+    }
+
     .horizontal-nav-link {
 
-        padding: 10px 20px !important;
+        padding: 0px 20px !important;
         margin-bottom: 5px !important;
     }
 
