@@ -40,8 +40,10 @@ a.store-link {
     }
 
     .nav-menu-item {
-        border: 1px solid currentColor;
         border-radius: var(--border-radius);
+        background: rgba(255,255,255,0.6) !important;
+        backdrop-filter: blur(30px) !important;
+        -webkit-backdrop-filter: blur(30px) !important;
     }
 
     .horizontal-nav-link:hover,
@@ -63,9 +65,8 @@ a.store-link {
     .header-nav-container.fixed {
        
         padding: 10px 0 !important;
-        background: rgba(255,255,255, 0.1) !important;
-        backdrop-filter: blur(30px) !important;
-        -webkit-backdrop-filter: blur(30px) !important;
+        background: transparent !important;
+       
         }
 
 }
