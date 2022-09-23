@@ -32,11 +32,10 @@ a.store-link {
     .horizontal-nav-links {
 
         box-shadow: none;
-        margin-top: 1px !important;
+        margin-top: 0px !important;
+        padding-top: 5px !important;
         background: transparent !important;
-        backdrop-filter: blur(30px) !important;
-        -webkit-backdrop-filter: blur(30px) !important;
-        border-radius: var(--border-radius);
+        
     }
 
     .nav-menu-item, .horizontal-nav-link {
@@ -44,7 +43,12 @@ a.store-link {
         background: rgba(255,255,255,0.6) !important;
         backdrop-filter: blur(30px) !important;
         -webkit-backdrop-filter: blur(30px) !important;
+        cursor: pointer !important;
     }
+
+    .horizontal-nav-link {display: inline-block !important; padding: 10px 20px !important; margin-bottom: 5px !important;}
+
+    .cart-item-count {top: 0px !important;}
 
     .horizontal-nav-link:hover,
     .horizontal-nav-link:focus {
