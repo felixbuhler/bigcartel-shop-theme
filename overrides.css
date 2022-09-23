@@ -135,6 +135,11 @@ a.button:not(:disabled):focus {
         box-shadow: none !important;
     }
 
+    .nav-menu-item {
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+    }
+
     .primary-product-image-container {
         border-radius: 0 !important;
     }
