@@ -33,13 +33,13 @@ a.store-link {
 
         box-shadow: none;
         margin-top: 1px !important;
-        background: rgba(0, 0, 0, 0.1) !important;
+        background: transparent !important;
         backdrop-filter: blur(30px) !important;
         -webkit-backdrop-filter: blur(30px) !important;
         border-radius: var(--border-radius);
     }
 
-    .nav-menu-item {
+    .nav-menu-item, .horizontal-nav-link {
         border-radius: var(--border-radius);
         background: rgba(255,255,255,0.6) !important;
         backdrop-filter: blur(30px) !important;
