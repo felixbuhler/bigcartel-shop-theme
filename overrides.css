@@ -132,9 +132,19 @@ a.button:not(:disabled):focus {
     .horizontal-nav-links {
 
         box-shadow: none;
-        margin-top: -30px !important;
-
+        margin-top: 0px !important;
+        padding-top: 0px !important;
         background: white !important;
         box-shadow: none !important;
     }
+
+    .primary-product-image-container {
+        border-radius: 0 !important;
+    }
+
+    .primary-product-image-container:before {
+        display: none !important;
+    }
+
+    ul.show-menu {padding: 70px 10px 10px 10px !important;}
 }
