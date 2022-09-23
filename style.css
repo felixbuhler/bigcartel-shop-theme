@@ -1,0 +1,40 @@
+/* Custom Code Felix Buhler */
+
+.image-wrapper {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.image-wrapper:before {
+    left: 10px;
+    top: 10px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 20px;
+    position: absolute;
+    display: block;
+    z-index: 9;
+    top: 0;
+    left: 0;
+}
+
+@media screen {
+    .horizontal-nav-links {
+       
+        box-shadow: none;
+        margin-top: 30px;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        
+    }
+}
+
+@media screen {
+    .nav-menu-item {
+        border: 1px solid currentColor;
+        border-radius: 15px;
+    }
+}
