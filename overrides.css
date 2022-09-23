@@ -34,6 +34,7 @@ a.store-link {
         padding: 0 !important;
         padding-top: 5px !important;
         box-shadow: none !important;
+        background: transparent !important;
     }
 
     .nav-menu-item,
