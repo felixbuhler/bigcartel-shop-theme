@@ -1,13 +1,15 @@
 /* Custom Code Felix Buhler */
 
+:root {--border-radius: 15px;}
+
 .image-wrapper {
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: var(--border-radius);
 }
 
 .image-wrapper:before {
-    left: 10px;
-    top: 10px;
+    left: 0px;
+    top: 0px;
     content: "";
     width: 10px;
     height: 10px;
@@ -16,25 +18,26 @@
     position: absolute;
     display: block;
     z-index: 9;
-    top: 0;
-    left: 0;
+    margin-top: 0;
+    margin-left: 0;
+
 }
 
 @media screen {
     .horizontal-nav-links {
-       
+
         box-shadow: none;
         margin-top: 30px;
         background: rgba(255, 255, 255, 0.3);
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
-        
+        backdrop-filter: blur(30px);
+        -webkit-backdrop-filter: blur(30px);
+        border-radius: var(--border-radius);
     }
 }
 
 @media screen {
     .nav-menu-item {
         border: 1px solid currentColor;
-        border-radius: 15px;
+        border-radius: var(--border-radius);
     }
 }
