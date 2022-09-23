@@ -1,5 +1,9 @@
 /* Custom Code Felix Buhler */
 
+a.store-link {
+    font-family: beaufort-pro, serif;
+    text-transform: uppercase;
+}
 
 .image-wrapper {
     overflow: hidden;
@@ -17,8 +21,8 @@
     position: absolute;
     display: block;
     z-index: 9;
-    margin-top: 0;
-    margin-left: 0;
+    margin-top: 10px;
+    margin-left: 10px;
 
 }
 
@@ -26,16 +30,26 @@
     .horizontal-nav-links {
 
         box-shadow: none;
-        margin-top: 30px;
-        background: rgba(255, 255, 255, 0.3);
-        backdrop-filter: blur(30px);
-        -webkit-backdrop-filter: blur(30px);
+        margin-top: 30px !important;
+        background: rgba(255, 255, 255, 0.3) !important;
+        backdrop-filter: blur(30px) !important;
+        -webkit-backdrop-filter: blur(30px) !important;
+        border-radius: var(--border-radius);
+        border: 1px solid #1d1d1d;
+    }
+
+    .nav-menu-item {
+        border: 1px solid currentColor;
         border-radius: var(--border-radius);
     }
-}
 
-@media screen {
-    .nav-menu-item {
+    .horizontal-nav-link:hover,
+    .horizontal-nav-link:focus {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .product-list-thumb-container:hover .product-list-thumb-name {
+        text-decoration: none !important;
         border: 1px solid currentColor;
         border-radius: var(--border-radius);
     }
