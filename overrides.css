@@ -144,6 +144,7 @@ a.button:not(:disabled):focus {
     .nav-menu-item {
         backdrop-filter: none !important;
         -webkit-backdrop-filter: none !important;
+        background: rgba(245, 245, 245, 0.9) !important;
     }
 
     .primary-product-image-container {
