@@ -30,11 +30,9 @@ a.store-link {
 
 @media screen {
     .horizontal-nav-links {
-        box-shadow: none;
         margin-top: 0px !important;
         padding: 0 !important;
         padding-top: 5px !important;
-        background: white !important;
         box-shadow: none !important;
     }
 
@@ -48,7 +46,7 @@ a.store-link {
     }
 
     .horizontal-nav-link {
-      
+
         padding: 10px 20px !important;
         margin-bottom: 5px !important;
     }
@@ -62,6 +60,7 @@ a.store-link {
     .horizontal-nav-link a:hover,
     .horizontal-nav-link:hover {
         text-decoration: none !important;
+        color: white !important;
     }
 
     span.cart-item-count {
@@ -86,6 +85,12 @@ a.store-link {
 
     }
 
+
+    h1.product-name {
+        font-size: 35px !important;
+        line-height: 40px !important;
+        font-family: beaufort-pro, serif !important;
+    }
 }
 
 @media (hover: hover),
@@ -124,8 +129,6 @@ a.button:not(:disabled):focus {
     }
 
     .horizontal-nav-links {
-
-        box-shadow: none;
         margin-top: 0px !important;
         padding-top: 0px !important;
         background: white !important;
@@ -140,5 +143,11 @@ a.button:not(:disabled):focus {
         display: none !important;
     }
 
-    ul.show-menu {padding: 70px 10px 10px 10px !important;}
+    ul.show-menu {
+        padding: 70px 10px 10px 10px !important;
+    }
+}
+
+.footer-store-credit {
+    display: none !important;
 }
