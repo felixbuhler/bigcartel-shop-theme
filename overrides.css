@@ -1,16 +1,16 @@
 /* Custom Code Felix Buhler */
 
 a.store-link {
-    font-family: beaufort-pro, serif;
+    font-family: beaufort-pro, serif !important;
     text-transform: uppercase;
 }
 
-.image-wrapper {
+.image-wrapper, .primary-product-image-container {
     overflow: hidden;
     border-radius: var(--border-radius);
 }
 
-.image-wrapper:before {
+.image-wrapper:before, .primary-product-image-container:before {
     left: 0px;
     top: 0px;
     content: "";
@@ -30,12 +30,11 @@ a.store-link {
     .horizontal-nav-links {
 
         box-shadow: none;
-        margin-top: 30px !important;
-        background: rgba(255, 255, 255, 0.3) !important;
+        margin-top: 1px !important;
+        background: rgba(0, 0, 0, 0.1) !important;
         backdrop-filter: blur(30px) !important;
         -webkit-backdrop-filter: blur(30px) !important;
         border-radius: var(--border-radius);
-        border: 1px solid #1d1d1d;
     }
 
     .nav-menu-item {
@@ -48,9 +47,28 @@ a.store-link {
         background-color: rgba(0, 0, 0, 0.1);
     }
 
-    .product-list-thumb-container:hover .product-list-thumb-name {
+
+
+}
+
+@media (hover: hover),
+not all {
+
+    .product-list-thumb:hover .product-list-thumb-name {
         text-decoration: none !important;
         border: 1px solid currentColor;
         border-radius: var(--border-radius);
     }
+}
+
+.button:not(:disabled):hover,
+.button:not(:disabled):active,
+.button:not(:disabled):focus,
+a.button:not(:disabled):hover,
+a.button:not(:disabled):active,
+a.button:not(:disabled):focus {
+    background-color: #1D1D1D !important;
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    color: #00ff00;
 }
