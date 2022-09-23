@@ -60,6 +60,14 @@ a.store-link {
         border-radius: var(--border-radius);
     }
 
+    .header-nav-container.fixed {
+       
+        padding: 10px 0 !important;
+        background: rgba(255,255,255, 0.1) !important;
+        backdrop-filter: blur(30px) !important;
+        -webkit-backdrop-filter: blur(30px) !important;
+        }
+
 }
 
 @media (hover: hover),
