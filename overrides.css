@@ -118,7 +118,7 @@ a.button:not(:disabled):focus {
     background-color: #1D1D1D !important;
     -webkit-transform: scale(1, 1) !important;
     transform: scale(1, 1) !important;
-    color: #00ff00 !important;
+    color: white !important;
     border-radius: var(--border-radius) !important;
 }
 
