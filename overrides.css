@@ -30,12 +30,11 @@ a.store-link {
 
 @media screen {
     .horizontal-nav-links {
-
         box-shadow: none;
         margin-top: 0px !important;
         padding: 0 !important;
         padding-top: 5px !important;
-        background: transparent !important;
+        background: white !important;
         box-shadow: none !important;
     }
 
@@ -49,7 +48,7 @@ a.store-link {
     }
 
     .horizontal-nav-link {
-        display: block !important;
+      
         padding: 10px 20px !important;
         margin-bottom: 5px !important;
     }
@@ -67,11 +66,6 @@ a.store-link {
 
     span.cart-item-count {
         top: 4px !important;
-    }
-
-    .horizontal-nav-link:hover,
-    .horizontal-nav-link:focus {
-        background-color: rgba(0, 0, 0, 0.1);
     }
 
     .primary-product-image-container {
@@ -126,7 +120,7 @@ a.button:not(:disabled):focus {
 
 @media screen and (max-width: 767px) {
     .nav-menu-item {
-        padding: 5px 10px !important;
+        padding: 5px 15px !important;
     }
 
     .horizontal-nav-links {
