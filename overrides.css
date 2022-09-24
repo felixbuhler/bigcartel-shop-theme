@@ -71,7 +71,6 @@ a.store-link {
 
     span.cart-item-count {
         top: 4px !important;
-        position: relative !important;
     }
 
     .primary-product-image-container {
@@ -163,7 +162,6 @@ a.button:not(:disabled):focus {
 
     span.cart-item-count {
         top: 1px !important;
-        position: absolute !important;
     }
 
     .header-nav-container {
