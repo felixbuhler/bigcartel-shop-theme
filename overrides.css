@@ -163,9 +163,20 @@ a.button:not(:disabled):focus {
 
     span.cart-item-count {
         top: 1px !important;
-        position: relative !important;
+    }
+
+    .header-nav-container {
+        left: -20px !important;
+        width: 100vw !important;
+    }
+
+    .header-nav-container.fixed {
+        left: 0px !important;
+        width: 100vw !important;
     }
 }
+
+
 
 .footer-store-credit {
     display: none !important;
