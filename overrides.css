@@ -71,6 +71,7 @@ a.store-link {
 
     span.cart-item-count {
         top: 4px !important;
+        position: relative !important;
     }
 
     .primary-product-image-container {
@@ -151,12 +152,18 @@ a.button:not(:disabled):focus {
         border-radius: 0 !important;
     }
 
-    .primary-product-image-container:before {
+    .primary-product-image-container:before,
+    .image-wrapper:before {
         display: none !important;
     }
 
     ul.show-menu {
         padding: 70px 10px 10px 10px !important;
+    }
+
+    span.cart-item-count {
+        top: 1px !important;
+        position: relative !important;
     }
 }
 
