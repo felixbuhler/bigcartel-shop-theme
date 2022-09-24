@@ -163,6 +163,7 @@ a.button:not(:disabled):focus {
 
     span.cart-item-count {
         top: 1px !important;
+        position: absolute !important;
     }
 
     .header-nav-container {
@@ -173,6 +174,10 @@ a.button:not(:disabled):focus {
     .header-nav-container.fixed {
         left: 0px !important;
         width: 100vw !important;
+    }
+
+    .nav-menu-item:has(a[href="/cart"]) {
+        padding-right: 20px !important;
     }
 }
 
